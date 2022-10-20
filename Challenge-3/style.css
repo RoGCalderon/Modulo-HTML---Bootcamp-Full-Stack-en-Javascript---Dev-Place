@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 2.5em;
+    background-color: #d6d4d0;
+}
+
+header{
+    margin-bottom: 0;
+}
+
+nav {
+    background-color: #908e91;
+    color: white;
+    font-weight: bold;
+}
+
+nav li {
+    text-decoration: none;
+    margin: 7px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 1%;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 100%;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 6 / 5;
+}
+
+.div2 {
+    grid-area: 1 / 5 / 6 / 6;
+}
+
+aside {
+    padding-left: 25%;
+}
+
+aside ul {
+    list-style: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.grid-item1 {
+    grid-area: 1 / 1 / 6 / 3;
+}
+
+.grid-item2 {
+    grid-area: 1 / 3 / 6 / 5;
+}
+
+footer ul {
+    background-color: #908e91;
+    margin: 0;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+footer li {
+    list-style: none;
+    text-align: center;
+}
+
+.partners{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:auto;
+    column-gap: 30px;
+
+}
+.divs-partners{
+    width: 250px;
+    height: 250px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+img1{
+    width: 150px;
+    height: 150px;
+}
+
+.text-effect{
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.text-effect:hover, .text-effect:focus {
+    background-size: 100% 2px;
+}
