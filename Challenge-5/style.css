@@ -1,0 +1,30 @@
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #afb8c7;
+}
+
+footer {
+  background-color: #afb8c7;
+  margin-top: 50px;
+  width: 100%;
+  height: 200px;
+}
+
+.productos a {
+  text-decoration: none;
+}
+.productos ul {
+  list-style: none;
+}
+.productos h4 {
+  text-decoration: underline;
+}
+
+.card img {
+  height: 200px;
+}
+
+/*# sourceMappingURL=style.css.map */
